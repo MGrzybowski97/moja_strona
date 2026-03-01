@@ -5,7 +5,7 @@ items.forEach(item => {
         
         const text = item.innerText;
 
-        alert('Wybrałeś: ${text}. Powodzenia w nauce na Linux Mint!');
+        alert(`Wybrałeś: ${text}. Powodzenia w nauce na Linux Mint!`);
 
         item.style.backgroundColor = '#ffcc00';
         setTimeout(() => {
